@@ -2,7 +2,7 @@
 N_crop = 39;
 
 %% load data images
-Cpath = [pwd,'\EPFL DH data\'];
+Cpath = [pwd,filesep,'EPFL DH data',filesep];
 fname = 'sequence-as-stack-Beads-DH-Exp.tif';
 info = imfinfo([Cpath,fname]);
 imageStack = [];
