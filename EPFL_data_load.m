@@ -15,7 +15,7 @@ for k = 1:numberOfImages
 end
 
 %% load xls data
-[num,txt,raw] = xlsread([Cpath,'activations.csv']);
+num = readmatrix([Cpath,'activations.csv']);
 XY_data = num(:,3:4)/1000;
 Z_data = num(:,5)/1000;
 %% create grid
