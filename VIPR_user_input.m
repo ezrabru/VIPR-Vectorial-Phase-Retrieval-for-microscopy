@@ -1,5 +1,5 @@
 %% user defined flags
-gpu_flag = 1; % 1 - use GPU, 0 - on CPU
+gpu_flag = 0; % 1 - use GPU, 0 - on CPU
 vec_model_flag = 1; % 1 - vectorial model, 0 - scalar model
 cost_function_flag = 4; % optimization cost 1 - L1, 2 - L2, 3 - Poiss MLE, 4 - Sum of gaussians MLE
 plot_flag = 1; % plot while SGD runs, slows down ~ X4
